@@ -1,5 +1,0 @@
-find ./selected_LS -type f -iname "*.flac" -exec curl -X POST -u "apikey:44_wfiHzrOb9lMYDpqW6alooOQiECKGzptP2XIuL56fq" \
---header "Content-Type: audio/flac" \
---data-binary @{} \
-"https://api.us-south.speech-to-text.watson.cloud.ibm.com/instances/015a08ff-171c-46c8-8d3d-37bfc0ccc615/v1/recognize" >> {}.txt \;
-

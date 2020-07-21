@@ -1,4 +1,0 @@
-find ./selected_LS -type f -iname "*.flac" -exec deepspeech --model deepspeech-0.7.0-models.pbmm --audio {} >> {}.txt \;
-
-
-
